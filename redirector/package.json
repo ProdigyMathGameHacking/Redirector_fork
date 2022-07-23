@@ -1,6 +1,7 @@
 {
-	"name": "redirect",
-	"version": "1.0.0",
+	"name": "old-redirector",
+	"version": "2.0.2",
+	"author": "ProdigyPNP",
 	"main": "index.js",
 	"license": "MPL-2.0",
 	"dependencies": {
@@ -13,7 +14,8 @@
 	},
 	"scripts": {
 		"start": "node .",
-		"build": "tsc && npm start",
+		"build": "npx tsc",
+		"quickstart": "npx tsc && npm start",
 		"setup": "npm install"
 	},
 	"devDependencies": {
