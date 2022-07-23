@@ -13,10 +13,13 @@
 		"typescript": "^3.8.3"
 	},
 	"scripts": {
-		"start": "node .",
+		"setup": "npm install",
 		"build": "npx tsc",
-		"quickstart": "npx tsc && npm start",
-		"setup": "npm install"
+
+		"autobuild": "npm install && npm run build",
+
+		"start": "node dist",
+		"quickstart": "npm run build && npm start"
 	},
 	"devDependencies": {
 		"@types/ms": "^0.7.31",
