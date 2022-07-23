@@ -2,7 +2,7 @@
 
 ## Reasoning
 
-The Redirector hack was made by [Will](https://github.com/TNThacker2015).
+The Redirector hack was made by [Will](https://github.com/MelnCat).
 
 In an effort to make hacking easier, and harder to patch, Will made the redirector hack.
 To put it simply, it modifies the game files to make it easier to hack. A little bit of voodoo cheat menus are included, and it's done!
