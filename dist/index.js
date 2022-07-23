@@ -110,7 +110,7 @@ app.get("/public-game.min.js", function (req, res) { return __awaiter(void 0, vo
 }); });
 app.get("/download", function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
-        return [2, res.redirect("https://github.com/Prodigy-Hacking/PHEx/raw/master/build/extension.zip")];
+        return [2, res.redirect("https://github.com/ProdigyPNP/PHEx/raw/master/build/extension.zip")];
     });
 }); });
 app.get("/version", function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
