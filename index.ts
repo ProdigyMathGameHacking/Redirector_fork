@@ -104,7 +104,7 @@ app.get("/public-game.min.js", async (req, res) => {
 	`);
 });
 app.get("/download", async (req, res) => {
-	return res.redirect("https://github.com/Prodigy-Hacking/PHEx/raw/master/build/extension.zip");
+	return res.redirect("https://github.com/ProdigyPNP/PHEx/raw/master/build/extension.zip");
 });
 app.get("/version", async (req, res) => {
 	return res.send(SupportPHEXVersion);
